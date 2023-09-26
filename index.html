@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700&display=swap" rel="stylesheet">
+    <title>Notifications Page</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+
+<body class="bg-White font-plus sm:bg-Light-grayish-blue-1 flex justify-center">
+    <main class="p-5 sm:m-5 bg-white sm:rounded-lg sm:w-2/3 lg:w-1/2">
+        <header class="flex justify-between mb-6 items-center">
+            <span class="bg-Very dark blue text-xl font-bold">Notifications <span
+                    class="not-num w-4 h-4 py-1 px-3 text-lg text-center rounded-lg bg-blue ml-1 text-white">3</span></span>
+            <span
+                class="text-Dark-grayish-blue cursor-pointer transition-colors duration-150 hover:text-blue mark-all-as-read">Mark
+                all
+                as read</span>
+        </header>
+
+        <div class="page">
+
+            <div class="unread flex flex-row text-sm bg-Very-light-grayish-blue p-3 rounded-md mb-3">
+                <div class="image rounded-full mr-4 w-20 sm:w-12"><img src="/assets/images/avatar-mark-webber.webp"
+                        alt="person">
+                </div>
+                <div class="cont">
+                    <p><span class="font-bold cursor-pointer transition-colors duration-150 hover:text-blue">Mark
+                            Webber</span> <span class="text-Grayish-blue ml-1">reacted to your recent post</span> <span
+                            class="text-Dark-grayish-blue ml-1 cursor-pointer transition-all duration-150 hover:text-blue hover:font-bold">My
+                            first
+                            tournament today! <span
+                                class="dot bg-red w-2 h-2 rounded-full inline-flex ml-1"></span></span>
+
+                    </p>
+                    <span class="time text-Grayish-blue">1m ago</span>
+                </div>
+            </div>
+
+            <div class="unread flex flex-row text-sm bg-Very-light-grayish-blue p-3 rounded-md mb-3">
+                <div class="image rounded-full mr-4 w-10 sm:w-12"><img src="/assets/images/avatar-angela-gray.webp"
+                        alt="person">
+                </div>
+                <div class="cont">
+                    <p><span class="font-bold cursor-pointer transition-colors duration-150 hover:text-blue">Angela
+                            Gray</span> <span class="text-Grayish-blue ml-1">followed you
+                            <span class="dot bg-red w-2 h-2 rounded-full inline-flex ml-1"></span></span>
+
+                    </p>
+                    <span class="time text-Grayish-blue">5m ago</span>
+                </div>
+            </div>
+
+            <div class="unread flex flex-row text-sm bg-Very-light-grayish-blue p-3 rounded-md mb-3">
+                <div class="image rounded-full mr-4 w-16 sm:w-12"><img src="/assets/images/avatar-jacob-thompson.webp"
+                        alt="person">
+                </div>
+                <div class="cont">
+                    <p><span class="font-bold cursor-pointer transition-colors duration-150 hover:text-blue">Jacob
+                            Thompson</span> <span class="text-Grayish-blue ml-1">has joined
+                            your group</span> <span
+                            class="text-blue ml-1 font-bold cursor-pointer transition-colors duration-150 hover:text-blue">Chess
+                            Club <span class="dot bg-red w-2 h-2 rounded-full inline-flex ml-1"></span></span>
+
+                    </p>
+                    <span class="time text-Grayish-blue">1 day ago</span>
+                </div>
+            </div>
+
+            <div class="read flex flex-row text-sm  p-3 rounded-md mb-3">
+                <div class="image rounded-full mr-4 w-40 sm:w-[85px] md:w-[65px] lg:w-24"><img
+                        src="/assets/images/avatar-rizky-hasanuddin.webp" alt="person">
+                </div>
+                <div class="cont">
+                    <p>
+                        <span class="font-bold cursor-pointer transition-colors duration-150 hover:text-blue">Rizky
+                            Hasanuddin</span>
+                        <span class="text-Grayish-blue ml-1">sent you a private message</span>
+                    </p>
+                    <span class="time text-Grayish-blue">5 days ago</span>
+                    <div
+                        class="private-msg mt-2 py-2 px-3 border-[1px] rounded-md border-solid border-Grayish-blue text-Dark-grayish-blue cursor-pointer transition-colors duration-150 hover:border-none hover:bg-Light-grayish-blue-1">
+                        Hello, thanks for
+                        setting
+                        up the
+                        Chess Club.
+                        I've been a member for a few
+                        weeks now and
+                        I'm already having lots of fun and improving my game.</div>
+                </div>
+            </div>
+
+            <div class="read flex flex-row text-sm  p-3 rounded-md mb-3 ">
+                <div class="image rounded-full mr-2 w-12 lg:w-11"><img src="/assets/images/avatar-kimberly-smith.webp"
+                        alt="person">
+                </div>
+                <div class="cont flex-1">
+                    <div class="flex justify-between w-full ">
+                        <div class="text w-3/4">
+                            <span
+                                class="font-bold cursor-pointer transition-colors duration-150 hover:text-blue">Kimberly
+                                Smith</span>
+                            <span class="text-Grayish-blue ">commented on your picture</span>
+                            <span class="time text-Grayish-blue block">1 week ago</span>
+                        </div>
+                        <div
+                            class="image w-11 cursor-pointer transition-colors duration-150 hover:border-[1px] hover:border-solid hover:rounded-lg hover:border-blue">
+                            <img src="assets/images/image-chess.webp" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="read flex flex-row text-sm  p-3 rounded-md mb-3">
+                <div class="image rounded-full mr-4 w-24 sm:w-12"><img src="/assets/images/avatar-nathan-peterson.webp"
+                        alt="person">
+                </div>
+                <div class="cont">
+                    <p>
+                        <span class="font-bold cursor-pointer transition-colors duration-150 hover:text-blue">Nathan
+                            Peterson</span>
+                        <span class="text-Grayish-blue ml-1">reacted to your recent post</span>
+                        <span
+                            class="text-Dark-grayish-blue cursor-pointer transition-colors duration-150 hover:text-blue hover:font-bold">5
+                            end-game strategies to increase your win rate</span>
+                    </p>
+                    <span class="time text-Grayish-blue">2 weeks ago</span>
+
+                </div>
+            </div>
+
+            <div class="read flex flex-row text-sm  p-3 rounded-md mb-3">
+                <div class="image rounded-full mr-4 w-11"><img src="/assets/images/avatar-anna-kim.webp" alt="person">
+                </div>
+                <div class="cont">
+                    <p>
+                        <span class="font-bold cursor-pointer transition-colors duration-150 hover:text-blue">Anna
+                            Kim</span>
+                        <span class="text-Grayish-blue ml-1">left the group</span>
+                        <span
+                            class="text-blue font-bold cursor-pointer transition-colors duration-150 hover:text-blue">Chess
+                            Club</span>
+                    </p>
+                    <span class="time text-Grayish-blue">2 weeks ago</span>
+
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </main>
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
